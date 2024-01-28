@@ -1,3 +1,4 @@
+/* Day 01 */
 body{
     background-color: #000;
 }
@@ -43,4 +44,13 @@ body{
     font-weight: 600;
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
+}
+
+/* Day 02 */
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    
 }
