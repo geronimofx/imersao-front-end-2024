@@ -1,37 +1,38 @@
 // Day 04
 // Comando para rodar a API: json-server --watch api-artists/artists.json  --port 3000
 
-const searchInput = document.getElementById('search-input')
-const resultsArtist = document.getElementById('result-artist')
-const resultPlaylist = document.getElementById('result-playlists')
+const resultArtist = document.getElementById("result-artist");
+const playlistContainer = document.getElementById("result-playlists");
+const searchInput = document.getElementById("search-input");
 
-const requestApi = (searchTerm) => {
-    const url = `http://localhost:3000/artists?name_like=${searchTerm}`
-    fetch(url)
-        .then((res) => res.json())
-        .then((result) => displayResults(result))
+function requestApi(searchTerm) {
+    fetch(`http://localhost:3000/artists?name_like=${searchTerm}`)
+        .then((response) => response.json())
+        .then((results) => displayResults(results));
 }
 
-const displayResults = () => {
-    resultPlaylist.classList.add('hidden')
-    const artistName = document.getElementById('artist-name')
-    const artistImage = document.getElementById('artist-img')
+function displayResults(results) {
+    hidePlaylists();
+    const artistImage = document.getElementById("artist-img");
+    const artistName = document.getElementById("artist-name");
 
-    result.forEach(element => {
-        artistName.innerText = element.name
-        artistImage.src = element.urlImg
+    results.forEach((element) => {
+        artistImage.src = element.urlImg;
+        artistName.innerText = element.name;
     });
-
-    resultsArtist.classList.remove('hidden')
+    resultArtist.classList.remove("hidden");
 }
 
-document.addEventListener('input', () => {
-    const searchTerm = searchInput.value.toLowerCase()
-    if (searchTerm === '') {
-        resultPlaylist.classList.add('hidden')
-        resultsArtist.classList.remove('hidden')
-        return
-    }
+function hidePlaylists() {
+    playlistContainer.classList.add("hidden");
+}
 
-    requestApi(searchTerm)
-})
+searchInput.addEventListener("input", function () {
+    const searchTerm = searchInput.value.toLowerCase();
+    if (searchTerm === "") {
+        resultArtist.classList.add("hidden");
+        playlistContainer.classList.remove("hidden");
+        return;
+    }
+    requestApi(searchTerm);
+});
