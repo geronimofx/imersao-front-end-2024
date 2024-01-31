@@ -1,5 +1,9 @@
 # Imersão Front-End
 
+
+
+### Sumário:
+
   - [Aula 01: Revisão: HTML, CSS e JS na Prática](#aula-01-revisão-html-css-e-js-na-prática)
 
   - [Aula 02: Estilo Avançado e Posicionamento: Transformando Layouts](#aula-02-estilo-avançado-e-posicionamento-transformando-layouts)
@@ -7,6 +11,10 @@
   - [Aula 03: Layout Flexbox, Pseudo-classes e Responsividade em CSS](#aula-03-layout-flexbox-pseudo-classes-e-responsividade-em-css)
   
   - [Aula 04: CSS Grid, Media Queries e Manipulação do DOM com JavaScript](#aula-04-css-grid-media-queries-e-manipulação-do-dom-com-javascript)
+
+  - Acesse aos códigos de cada aula [aqui](https://github.com/RodrigoHarder/imersao-frontend/tree/main)
+
+  - Acesse o projeto completo [aqui](https://github.com/alura-cursos/spotify-imersao/tree/main) 
 
 ---
 
@@ -171,5 +179,39 @@ Nesta aula, iremos utilizar o CSS Grid no projeto, para os cards da página inic
 
 - **Utilize o Stable Diffusion na plataforma paga: Clipdrop:**
   - [Clipdrop](https://clipdrop.co/)
+
+# Aula 05: Frameworks e Eficiência: Introdução ao React
+
+### Introdução
+
+Nesta última aula, iremos utilizar frameworks de JavaScript React no projeto para, assim, criarmos o componente [Header](https://github.com/alura-cursos/DIA5-Imersao-Alura-2024/tree/main/spotify-imersao-react-develop/src/Header)!
+
+### Nesta aula, você vai:
+- Aprender os conceitos básicos do React;
+- Criar um projeto React e entender sua estrutura básica;
+- Utilizar componentes funcionais e de classe no React;
+- Entender a diferença entre state e props no React.
+
+### Links importantes para você acompanhar a aula
+
+- [Guia de Mergulho da Imersão Front-End!](https://grupoalura.notion.site/Imers-o-Front-End-Guia-de-Mergulho-53f23a8a959e43608524e08b22c585b9)
+- [ChatGPT](https://chat.openai.com/)
+- [Landing page do Spotify](https://open.spotify.com/intl-pt)
+- [Tutorial de React para Windows e como usar no VS Code](https://learn.microsoft.com/pt-br/windows/dev-environment/javascript/react-beginners-tutorial) [Tutorial de React para Windows e como usar no VS Code](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial)
+- [React JavaScript tutorial no VS Code](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial)
+
+### Mergulhe mais profundo
+
+Aprofunde-se nos seguintes tópicos:
+- [Guia de React em JavaScript](https://www.alura.com.br/artigos/react-js)
+- [Podcast Hipsters - Do Front ao React](https://www.hipsters.tech/do-front-end-ao-react-hipsters-ponto-tech-258/)
+- Baixe apostilas de conteúdos gratuitos da Alura [aqui](https://www.alura.com.br/apostilas)
+- [Angular vs React vs Vue.js](https://www.alura.com.br/artigos/angular-vs-react-vs-vue-js)
+- [React e como os componentes funcionam](https://www.alura.com.br/conteudo/react-componentes-funcionam)
+- [Podcast Hipsters: Angular vs React](https://www.alura.com.br/podcast/angular-vs-react-hipsters-142-a439)
+- [JavaScript ou TypeScript](https://www.alura.com.br/artigos/javascript-ou-typescript)
+- [Comunidade Angular_sp no YouTube](https://www.youtube.com/@angularsp3351/videos)
+- [GitHub - Copilot](https://github.com/features/copilot)
+- [Guia de carreira Front-end | #HipstersPontoTube](https://www.youtube.com/watch?v=fpth65ts3cw&list=PLh2Y_pKOa4UeBQNf1JQzc4SfegYR0gO-N&index=18)
 
 ---

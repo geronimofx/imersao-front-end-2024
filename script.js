@@ -1,5 +1,5 @@
 // Day 04
-// Comando para rodar a API: json-server --watch api-artists/artists.json  --port 3000
+// Comando para rodar a API: json-server --watch artists.json  --port 3000
 
 const resultArtist = document.getElementById("result-artist");
 const playlistContainer = document.getElementById("result-playlists");
