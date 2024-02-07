@@ -83,6 +83,14 @@
     font-weight: 700;
     background-color: transparent;
     margin-right: 32px;
+    border: none; /* Remover borda */
+    border-radius: 20px; /* Adicionar bordas arredondadas */
+    padding: 10px 20px; /* Ajustar o preenchimento conforme necessário */
+    transition: transform 0.3s ease; /* Transição suave */
+}
+
+.header__login .subscribe:hover {
+    transform: translate(0, -3px); /* Mover o texto para cima um pouco */
 }
 
 .header__login .login {
