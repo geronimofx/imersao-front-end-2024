@@ -1,0 +1,11 @@
+{
+  "name": "json-server-on-vercel",
+  "version": "1.0.0",
+  "description": "Run json-server on Vercel",
+  "scripts": {
+    "start": "json-server --watch artists.json --port 3000"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
